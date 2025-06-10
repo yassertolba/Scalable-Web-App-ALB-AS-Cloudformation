@@ -1,0 +1,42 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "manara-saa-project-cloudformation"
+	},
+	{
+		"ParameterKey": "VpcCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	},
+	{
+		"ParameterKey": "PublicSubnet1CIDR",
+		"ParameterValue": "10.0.0.0/24"
+	},
+	{
+		"ParameterKey": "PublicSubnet2CIDR",
+		"ParameterValue": "10.0.1.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet1CIDR",
+		"ParameterValue": "10.0.2.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet2CIDR",
+		"ParameterValue": "10.0.3.0/24"
+	},
+	{
+    "ParameterKey": "AMItoUse",
+    "ParameterValue": "ami-028727bd3039c5a1f"
+  },
+	{
+		"ParameterKey": "InstanceTypetoUse",
+		"ParameterValue": "t2.micro"
+	},
+	  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "project-key-pair"
+  },
+	{
+		"ParameterKey": "dbUsername",
+		"ParameterValue": "admin"
+	}
+]
